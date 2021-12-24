@@ -25,8 +25,8 @@ function Headre() {
                 <div className='topbar-col'>
                   <div className='topbar-social'>
                     <a href='instagram.com' target='_blank'><i className='fab fa-facebook-f' /></a>
-                    <a href><i className='fab fa-instagram' /></a>
-                    <a href><i className='fab fa-linkedin-in' /></a>
+                    <a href='instagram.com'><i className='fab fa-instagram' /></a>
+                    <a href='instagram.com'><i className='fab fa-linkedin-in' /></a>
                   </div>
                 </div>
               </div>

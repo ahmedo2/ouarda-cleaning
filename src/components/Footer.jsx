@@ -13,9 +13,9 @@ function Footer() {
               <p><i className='fa fa-phone-alt' />+012 345 67890</p>
               <p><i className='fa fa-envelope' />contact@ouardanettoyage.com</p>
               <div className='footer-social'>
-                <a href><i className='fab fa-facebook-f' /></a>
-                <a href><i className='fab fa-instagram' /></a>
-                <a href><i className='fab fa-linkedin-in' /></a>
+                <a href='instagram.com'><i className='fab fa-facebook-f' /></a>
+                <a href='instagram.com'><i className='fab fa-instagram' /></a>
+                <a href='instagram.com'><i className='fab fa-linkedin-in' /></a>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ function Footer() {
       <div className='container copyright'>
         <div className='row'>
           <div className='col-md-6'>
-            <p>© {new Date().getFullYear()}<a href='https://ouardanettoyage.com'></a>, Tous droits réservés.</p>
+            <p>© {new Date().getFullYear()} Tous droits réservés.</p>
           </div>
           <div className='col-md-6'>
             <p>Designed By <a href='https://www.linkedin.com/in/ahmed-oublihi/' target='blank'>Ahmed</a></p>

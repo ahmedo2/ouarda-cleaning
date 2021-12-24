@@ -8,10 +8,6 @@ import service_2 from '../assets/img/service-2.jpg';
 import service_3 from '../assets/img/service-3.jpg';
 import service_4 from '../assets/img/service-4.jpg';
 
-import feature_1 from '../assets/img/feature-1.jpg';
-import feature_2 from '../assets/img/feature-2.jpg';
-import feature_3 from '../assets/img/feature-3.jpg';
-
 function Home() {
   return (
     <div className='wrapper'>
@@ -146,7 +142,7 @@ function Home() {
         </div>
       </div>
       <Footer />
-      <a href='#' className='back-to-top'><i className='fa fa-chevron-up' /></a>
+      {/* <a href='#' className='back-to-top'><i className='fa fa-chevron-up' /></a> */}
   </div>
   );
 }
