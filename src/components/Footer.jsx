@@ -13,9 +13,9 @@ function Footer() {
               <p><i className='fa fa-phone-alt' />+012 345 67890</p>
               <p><i className='fa fa-envelope' />contact@ouardanettoyage.com</p>
               <div className='footer-social'>
-                <a href='instagram.com'><i className='fab fa-facebook-f' /></a>
-                <a href='instagram.com'><i className='fab fa-instagram' /></a>
-                <a href='instagram.com'><i className='fab fa-linkedin-in' /></a>
+                <a href="instagram.com"><i className="fab fa-facebook-f" /></a>
+                <a href="instagram.com"><i className="fab fa-instagram" /></a>
+                <a href="instagram.com"><i className="fab fa-linkedin-in" /></a>
               </div>
             </div>
           </div>

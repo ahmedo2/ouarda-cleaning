@@ -17,16 +17,16 @@ function Headre() {
             <div className='col-lg-9'>
               <div className='topbar'>
                 <div className='topbar-col'>
-                  <a href='tel:+012 345 67890'><i className='fa fa-phone-alt' />+012 345 67890</a>
+                  <a href="tel:+012 345 67890"><i className='fa fa-phone-alt' />+012 345 67890</a>
                 </div>
                 <div className='topbar-col'>
-                  <a href='mailto:info@example.com'><i className='fa fa-envelope' />info@example.com</a>
+                  <a href="mailto:info@example.com"><i className='fa fa-envelope' />info@example.com</a>
                 </div>
                 <div className='topbar-col'>
                   <div className='topbar-social'>
-                    <a href='instagram.com' target='_blank'><i className='fab fa-facebook-f' /></a>
-                    <a href='instagram.com'><i className='fab fa-instagram' /></a>
-                    <a href='instagram.com'><i className='fab fa-linkedin-in' /></a>
+                    <a href="instagram.com" target='_blank'><i className='fab fa-facebook-f' /></a>
+                    <a href="instagram.com"><i className='fab fa-instagram' /></a>
+                    <a href="instagram.com"><i className='fab fa-linkedin-in' /></a>
                   </div>
                 </div>
               </div>
