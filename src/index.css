@@ -399,6 +399,20 @@ a:focus {
   padding: 45px 0;
 }
 
+.aprops {
+  padding: 30px;
+}
+
+.aprops h2 {
+  text-align: center;
+  font-weight: 600;
+  color: #00539C;
+}
+
+.aprops p {
+  text-align: center;
+}
+
 .about .about-img img {
   width: 100%;
   border-radius: 5px;
@@ -424,16 +438,16 @@ a:focus {
   padding: 15px 35px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #000000;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
-  background: #fe4b7e;
+  background: #00539C;
   transition: .3s;
 }
 
 .about .about-text a.btn:hover {
-  color: #ffffff;
-  background: #00539C;
+  color: #000000;
+  background: #fe4b7e;
 }
 
 @media (max-width: 767.98px) {
@@ -481,7 +495,7 @@ a:focus {
 .service .service-item p {
   margin: 0;
   padding: 0 25px 25px 25px;
-  font-size: 30px;
+  font-size: 15px;
   font-weight: 600px;
   color: #fe4b7e;
 }
@@ -492,7 +506,7 @@ a:focus {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #000000;
   border: none;
   border-radius: 5px;
   background: #fe4b7e;
@@ -500,7 +514,7 @@ a:focus {
 }
 
 .service .service-item:hover a.btn {
-  color: #000000;
+  color: #ffffff;
   background: #00539C;
 }
 
@@ -522,7 +536,7 @@ a:focus {
   padding: 15px 35px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #000000;
   border: none;
   border-radius: 5px;
   background: #fe4b7e;
@@ -530,8 +544,13 @@ a:focus {
 }
 
 .feature a.btn:hover {
-  color: #000000;
+  color: #ffffff;
   background: #00539C;
+}
+
+.feature h1 {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .feature .feature-item {
@@ -1261,10 +1280,13 @@ a:focus {
   position: relative;
   margin-bottom: 20px;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   color: #fe4b7e;
-  text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.footer-form .h2 {
+  text-align: center;
 }
 
 .footer .footer-contact p {
@@ -1295,7 +1317,8 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-  color: #FFD662;
+  color: #fe4b7e;
+  font-size: 30px;
 }
 
 .footer .footer-link a {
@@ -1315,26 +1338,21 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-  color: #FFD662;
+  color: #fe4b7e;
+  font-size: 15px;
 }
 
-.footer .footer-form input {
-  height: 45px;
-  font-size: 14px;
-  border: none;
-  border-radius: 5px;
-}
-
-.footer .footer-form .btn {
+.footer .btn {
   /* position: absolute; */
   position: relative;
+  width: 100%;
   right: 5px;
   bottom: 5px;
   font-size: 14px;
   font-weight:400;
   text-transform: uppercase;
   color: #000000;
-  background: #FFD662;
+  background: #ffffff;
   border-radius: 5px;
   transition: .3s;
 }

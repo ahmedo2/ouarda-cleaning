@@ -38,7 +38,7 @@ function Footer() {
           </div>
           <div className='col-md-6 col-lg-4'>
             <div className='footer-form'>
-              <h2>Avez-vous des questions</h2>
+              <h2 className='h2'>Avez-vous des questions</h2>
               <br />
               <div>
                 <Link to='/contact' className='btn'>

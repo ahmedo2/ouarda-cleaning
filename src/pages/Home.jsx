@@ -87,10 +87,10 @@ function Home() {
       {/* Service */}
       <div className='feature'>
         <div className='container'>
+          <h1>Pourquoi nous choisir?</h1>
           <div className='row'>
             <div className='col-md-4'>
               <div className='section-header left'>
-                <p>Pourquoi nous choisir ?</p>
                 <h2>Nettoyeurs experts et années d'expérience</h2>
               </div>
               <p>

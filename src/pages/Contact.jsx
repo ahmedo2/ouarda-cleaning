@@ -6,21 +6,6 @@ function Contact() {
   return (
     <div>
       <Headre />
-      <div className="page-header">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <h2>Contact Us</h2>
-            </div>
-            <div className="col-12">
-              <a href>Accueil</a>
-              <a href>Contact Nous</a>
-            </div>
-          </div>
-        </div>
-      </div>
-  {/* Page Header End */}
-  {/* Contact Start */}
       <div className="contact">
         <div className="container">
           <div className="section-header">

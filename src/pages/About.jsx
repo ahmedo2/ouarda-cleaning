@@ -2,195 +2,50 @@ import React from 'react';
 import AboutPart from '../components/About';
 import Footer from '../components/Footer';
 import Headre from '../components/Headre';
+import { Link } from 'react-router-dom';
+import about_img from '../assets/img/about.jpg';
 
 function About() {
   return (
     <>
       <Headre />
-      {/* Page Header Start */}
-      <div className="page-header">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <h2>About Us</h2>
-            </div>
-            <div className="col-12">
-              <a href>Home</a>
-              <a href>About Us</a>
-            </div>
-          </div>
-        </div>
+      <div className='container card aprops'>
+        <h2>A PROPOS DE NOUS</h2>
+        <p>
+          Apres 18 ans déxperiense de EL Hassan Hajaoui dans le domaine de nettoyage a LA HOLLAND.   
+          la societe OUARDA NETTOYAGE a ete cree en 2015 par lui au Maroc.
+          OUARDA NETTOYAGE est une société de nettoyage localisée à Kelaat M’gouna province de Tinhgir.. Notre entreprise offre une large gamme de prestations, tant pour les sociétés que pour les particuliers dans le nettoyage
+        </p>
       </div>
-      {/* Page Header End */}
       <AboutPart />
-      {/* Story Start */}
-      <div className="story">
-        <div className="container">
-          <div className="section-header">
-            <p>Company Story</p>
-            <h2>Learn About Our Journey</h2>
+      <div className='about'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-lg-7 col-md-6'>
+            <div className='about-text'>
+              <h2>Histoire de l'entreprise</h2>
+              <p>
+                Avant de créer d'abord OUARDA NETTOYAGE société de nettoyage le gérant Mr EL HASSAN HAJAOUI commencer en 1998. Il y à 12 ans il à décidé de se lancer dans le service aux entreprises.
+                <br />
+                Après une formation et des années sur le terrain à nettoyer, le temps était venu de grandir...
+                <br />
+                Après avoir longuement étudié la meilleur manière pour être compétitif et afin d'offrir un service optimale et proche du client, il s'est concentré sur la formation de ses collègues. Responsable de son chantier, de la qualité du travail, les techniciens sont à l'écoute du client.
+                <br />
+                Pour nos  société, notre réputation s'est surtout construite par le bouche à oreille et non avec des budgets publicitaires importants.
+              </p>
+              <Link to='/contact' className='btn'>
+                Alors pourquoi ne pas essayer avec nous?
+              </Link>
+            </div>
           </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="story-container">
-                <div className="story-end">
-                  <p>Now</p>
-                </div>
-                <div className="story-continue">
-                  <div className="row story-right">
-                    <div className="col-md-6">
-                      <p className="story-date">01 Dec 2020</p>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="story-box">
-                        <div className="story-text">
-                          <h3>Lorem ipsum dolor</h3>
-                          <p>
-                            Lorem ipsum dolor sit amet elit. Proin euismod nibh in
-                            convallis. Nam vitae posuere tortor, et imperdiet nunc.
-                            Praesent nisl nulla, fringilla eu ornare, dignissim
-                            vitae ipsum.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row story-left">
-                    <div className="col-md-6 d-md-none d-block">
-                      <p className="story-date">01 Jun 2020</p>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="story-box">
-                        <div className="story-text">
-                          <h3>Lorem ipsum dolor</h3>
-                          <p>
-                            Lorem ipsum dolor sit amet elit. Proin euismod nibh in
-                            convallis. Nam vitae posuere tortor, et imperdiet nunc.
-                            Praesent nisl nulla, fringilla eu ornare, dignissim
-                            vitae ipsum.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-6 d-md-block d-none">
-                      <p className="story-date">01 Jun 2020</p>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-12">
-                      <div className="story-year">
-                        <p>2020</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row story-right">
-                    <div className="col-md-6">
-                      <p className="story-date">01 Dec 2019</p>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="story-box">
-                        <div className="story-text">
-                          <h3>Lorem ipsum dolor</h3>
-                          <p>
-                            Lorem ipsum dolor sit amet elit. Proin euismod nibh in
-                            convallis. Nam vitae posuere tortor, et imperdiet nunc.
-                            Praesent nisl nulla, fringilla eu ornare, dignissim
-                            vitae ipsum.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row story-left">
-                    <div className="col-md-6 d-md-none d-block">
-                      <p className="story-date">01 Jun 2019</p>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="story-box">
-                        <div className="story-text">
-                          <h3>Lorem ipsum dolor</h3>
-                          <p>
-                            Lorem ipsum dolor sit amet elit. Proin euismod nibh in
-                            convallis. Nam vitae posuere tortor, et imperdiet nunc.
-                            Praesent nisl nulla, fringilla eu ornare, dignissim
-                            vitae ipsum.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-6 d-md-block d-none">
-                      <p className="story-date">01 Jun 2019</p>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-12">
-                      <div className="story-year">
-                        <p>2019</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row story-right">
-                    <div className="col-md-6">
-                      <p className="story-date">01 Dec 2018</p>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="story-box">
-                        <div className="story-text">
-                          <h3>Lorem ipsum dolor</h3>
-                          <p>
-                            Lorem ipsum dolor sit amet elit. Proin euismod nibh in
-                            convallis. Nam vitae posuere tortor, et imperdiet nunc.
-                            Praesent nisl nulla, fringilla eu ornare, dignissim
-                            vitae ipsum.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row story-left">
-                    <div className="col-md-6 d-md-none d-block">
-                      <p className="story-date">01 Jun 2018</p>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="story-box">
-                        <div className="story-text">
-                          <h3>Lorem ipsum dolor</h3>
-                          <p>
-                            Lorem ipsum dolor sit amet elit. Proin euismod nibh in
-                            convallis. Nam vitae posuere tortor, et imperdiet nunc.
-                            Praesent nisl nulla, fringilla eu ornare, dignissim
-                            vitae ipsum.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-6 d-md-block d-none">
-                      <p className="story-date">01 Jun 2018</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="story-start">
-                  <p>Launch</p>
-                </div>
-                <div className="story-launch">
-                  <div className="story-box">
-                    <div className="story-text">
-                      <h3>Launched our company on 01 Jan 2018</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet elit. Proin euismod nibh in
-                        convallis. Nam vitae posuere tortor, et imperdiet nunc.
-                        Praesent nisl nulla, fringilla eu ornare, dignissim vitae
-                        ipsum.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div className='col-lg-5 col-md-6'>
+            <div className='about-img'>
+              <img src={about_img} alt='' />
             </div>
           </div>
         </div>
       </div>
-      {/* Story End */}
+    </div>
       <Footer />
     </>
   )
