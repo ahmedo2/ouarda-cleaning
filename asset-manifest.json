@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ouarda-cleaning/static/css/main.f1ce6d1a.chunk.css",
+    "main.js": "/ouarda-cleaning/static/js/main.f1594a55.chunk.js",
+    "main.js.map": "/ouarda-cleaning/static/js/main.f1594a55.chunk.js.map",
+    "runtime-main.js": "/ouarda-cleaning/static/js/runtime-main.f1af86e4.js",
+    "runtime-main.js.map": "/ouarda-cleaning/static/js/runtime-main.f1af86e4.js.map",
+    "static/js/2.ea5ffa40.chunk.js": "/ouarda-cleaning/static/js/2.ea5ffa40.chunk.js",
+    "static/js/2.ea5ffa40.chunk.js.map": "/ouarda-cleaning/static/js/2.ea5ffa40.chunk.js.map",
+    "index.html": "/ouarda-cleaning/index.html",
+    "static/css/main.f1ce6d1a.chunk.css.map": "/ouarda-cleaning/static/css/main.f1ce6d1a.chunk.css.map",
+    "static/js/2.ea5ffa40.chunk.js.LICENSE.txt": "/ouarda-cleaning/static/js/2.ea5ffa40.chunk.js.LICENSE.txt",
+    "static/media/about.f8bd0d1b.jpg": "/ouarda-cleaning/static/media/about.f8bd0d1b.jpg",
+    "static/media/feature-1.1118884d.jpg": "/ouarda-cleaning/static/media/feature-1.1118884d.jpg",
+    "static/media/feature-2.44b26a20.jpg": "/ouarda-cleaning/static/media/feature-2.44b26a20.jpg",
+    "static/media/feature-3.c012a3ab.jpg": "/ouarda-cleaning/static/media/feature-3.c012a3ab.jpg",
+    "static/media/index.css": "/ouarda-cleaning/static/media/header.35a2ed41.jpg",
+    "static/media/logo.16945d22.png": "/ouarda-cleaning/static/media/logo.16945d22.png",
+    "static/media/service-1.ebb0879c.jpg": "/ouarda-cleaning/static/media/service-1.ebb0879c.jpg",
+    "static/media/service-2.f10e546e.jpg": "/ouarda-cleaning/static/media/service-2.f10e546e.jpg",
+    "static/media/service-3.8b3130b2.jpg": "/ouarda-cleaning/static/media/service-3.8b3130b2.jpg",
+    "static/media/service-4.91b872c9.jpg": "/ouarda-cleaning/static/media/service-4.91b872c9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1af86e4.js",
+    "static/js/2.ea5ffa40.chunk.js",
+    "static/css/main.f1ce6d1a.chunk.css",
+    "static/js/main.f1594a55.chunk.js"
+  ]
+}
