@@ -1,8 +1,12 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, useLocation, NavLink } from "react-router-dom";
 import logo from '../assets/img/logo.png';
 
 function Headre() {
+  const location = useLocation();
+  const { pathname } = location;
+  const splitLocation = pathname.split("/");
+
   return (
     <div className='header home'>
         <div className='container-fluid'>
@@ -37,18 +41,19 @@ function Headre() {
                 </button>
                 <div className='collapse navbar-collapse justify-content-between' id='navbarCollapse'>
                   <div className='navbar-nav ml-auto'>
-                    <Link to='/' className='nav-item nav-link active'>
+                    <NavLink to='/' className='nav-item nav-link' activeClassName="active">
                       Accueil
-                    </Link>
-                    <Link to='/about' className='nav-item nav-link'>
-                      A Propos
-                    </Link>
-                    <Link to='/service' className='nav-item nav-link'>
+                    </NavLink>
+                    {/* className={splitLocation[1] === "" ? "active" : ""} */}
+                    <NavLink to='/about' className='nav-item nav-link' activeClassName="active">
+                      A-Propos
+                    </NavLink>
+                    <NavLink to='/service' className='nav-item nav-link' activeClassName="active">
                       Service
-                    </Link>
-                    <Link to='/contact' className='nav-item nav-link'>
+                    </NavLink>
+                    <NavLink to='/contact' className='nav-item nav-link' activeClassName="active">
                       Contact
-                    </Link>
+                    </NavLink>
                   </div>
                 </div>
               </div>

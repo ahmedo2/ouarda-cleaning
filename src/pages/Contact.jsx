@@ -24,7 +24,7 @@ function Contact() {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="Your Name"
+                        placeholder="Nom Complet"
                         required="required"
                       />
                     </div>
@@ -32,7 +32,7 @@ function Contact() {
                       <input
                         type="email"
                         className="form-control"
-                        placeholder="Your Email"
+                        placeholder="Votre E-mail"
                         required="required"
                       />
                     </div>
