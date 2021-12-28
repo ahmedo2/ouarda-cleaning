@@ -41,17 +41,17 @@ function Headre() {
                 </button>
                 <div className='collapse navbar-collapse justify-content-between' id='navbarCollapse'>
                   <div className='navbar-nav ml-auto'>
-                    <NavLink to='/' className='nav-item nav-link' activeClassName="active">
+                    <NavLink to='/' className={({isActive}) => (isActive ? "active" : 'none') + ' nav-item nav-link'}>
                       Accueil
                     </NavLink>
                     {/* className={splitLocation[1] === "" ? "active" : ""} */}
-                    <NavLink to='/about' className='nav-item nav-link' activeClassName="active">
+                    <NavLink to='/about' className={({isActive}) => (isActive ? "active" : 'none') + ' nav-item nav-link'}>
                       A-Propos
                     </NavLink>
-                    <NavLink to='/service' className='nav-item nav-link' activeClassName="active">
+                    <NavLink to='/service' className={({isActive}) => (isActive ? "active" : 'none') + ' nav-item nav-link'}>
                       Service
                     </NavLink>
-                    <NavLink to='/contact' className='nav-item nav-link' activeClassName="active">
+                    <NavLink to='/contact' className={({isActive}) => (isActive ? "active" : 'none') + ' nav-item nav-link'}>
                       Contact
                     </NavLink>
                   </div>
