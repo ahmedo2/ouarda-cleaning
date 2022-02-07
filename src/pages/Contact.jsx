@@ -25,6 +25,7 @@ function Contact() {
                         type="text"
                         className="form-control"
                         placeholder="Nom Complet"
+                        name="full_name"
                         required="required"
                       />
                     </div>
@@ -33,6 +34,7 @@ function Contact() {
                         type="email"
                         className="form-control"
                         placeholder="Votre E-mail"
+                        name="user_email"
                         required="required"
                       />
                     </div>
@@ -42,6 +44,7 @@ function Contact() {
                       type="text"
                       className="form-control"
                       placeholder="Subject"
+                      name="subject"
                       required="required"
                     />
                   </div>
@@ -50,6 +53,7 @@ function Contact() {
                       className="form-control"
                       rows={6}
                       placeholder="Message"
+                      name="message"
                       required="required"
                       defaultValue={""}
                     />

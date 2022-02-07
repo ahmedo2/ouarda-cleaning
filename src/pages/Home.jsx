@@ -7,10 +7,14 @@ import service_1 from '../assets/img/service-1.jpg';
 import service_2 from '../assets/img/service-2.jpg';
 import service_3 from '../assets/img/service-3.jpg';
 import service_4 from '../assets/img/service-4.jpg';
+import service_5 from '../assets/img/service-5.jpg';
+import service_6 from '../assets/img/service-6.jpg';
+import service_7 from '../assets/img/service-7.jpg';
+import service_8 from '../assets/img/service-8.jpg';
 
 function Home() {
   return (
-    <div className='wrapper'>
+    <div>
       <Headre />
       <About />
       {/* Service */}
@@ -23,56 +27,56 @@ function Home() {
           <div className='row'>
             <div className='col-lg-3 col-md-6'>
               <div className='service-item'>
-                <img src={service_1} alt='Service' />
+                <img className='card-img-top' src={service_1} alt='Service' />
                 <h3>Entretien commun d'immeuble</h3>
                 <Link to='/service' className='btn'>Apprendre encore plus</Link>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
               <div className='service-item'>
-                <img src={service_1} alt='Service' />
+                <img className='card-img-top' src={service_2} alt='Service' />
                 <h3>Nettoyage bureaux</h3>
                 <Link to='/service' className='btn'>Apprendre encore plus</Link>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
               <div className='service-item'>
-              <img src={service_2} alt='Service' />
+              <img className='card-img-top' src={service_3} alt='Service' />
                 <h3>Nettoyage de magasins</h3>
                 <Link to='/service' className='btn'>Apprendre encore plus</Link>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
               <div className='service-item'>
-              <img src={service_3} alt='Service' />
+              <img className='card-img-top' src={service_4} alt='Service' />
                 <h3>Nettoyages de vitres</h3>
                 <Link to='/service' className='btn'>Apprendre encore plus</Link>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
               <div className='service-item'>
-              <img src={service_4} alt='Service' />
+              <img className='card-img-top' src={service_5} alt='Service' />
                 <h3>Entretien cabinet médicaux</h3>
                 <Link to='/service' className='btn'>Apprendre encore plus</Link>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
               <div className='service-item'>
-              <img src={service_4} alt='Service' />
+              <img className='card-img-top' src={service_6} alt='Service' />
                 <h3>Nettoyage parking</h3>
                 <Link to='/service' className='btn'>Apprendre encore plus</Link>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
               <div className='service-item'>
-              <img src={service_4} alt='Service' />
+              <img className='card-img-top' src={service_7} alt='Service' />
                 <h3>Conseil organisation nettoyage</h3>
                 <Link to='/service' className='btn'>Apprendre encore plus</Link>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
               <div className='service-item'>
-              <img src={service_4} alt='Service' />
+              <img className='card-img-top' src={service_8} alt='Service' />
                 <h3>Divers nettoyages</h3>
                 <Link to='/service' className='btn'>Apprendre encore plus</Link>
               </div>

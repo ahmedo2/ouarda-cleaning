@@ -6,6 +6,10 @@ import service_1 from '../assets/img/service-1.jpg';
 import service_2 from '../assets/img/service-2.jpg';
 import service_3 from '../assets/img/service-3.jpg';
 import service_4 from '../assets/img/service-4.jpg';
+import service_5 from '../assets/img/service-5.jpg';
+import service_6 from '../assets/img/service-6.jpg';
+import service_7 from '../assets/img/service-7.jpg';
+import service_8 from '../assets/img/service-8.jpg';
 
 function Service() {
   return (
@@ -20,7 +24,7 @@ function Service() {
           <div className='row'>
             <div className='col-lg-6 col-md-6'>
               <div className='service-item'>
-                <img src={service_1} alt='Service' />
+                <img className='card-img-top' src={service_1} alt='Service' />
                 <h3>Entretien commun d'immeuble </h3>
                 <p>
                   De haut en bas, des paliers à la cave nous nettoyons tout.
@@ -30,7 +34,7 @@ function Service() {
             </div>
             <div className='col-lg-6 col-md-6'>
               <div className='service-item'>
-              <img src={service_2} alt='Service' />
+              <img className='card-img-top' src={service_2} alt='Service' />
                 <h3>Nettoyage bureaux​</h3>
                 <p>
                   La journée, le soir, nous venons nettoyer vos espaces de travailles. Sol, sanitaire, cuisine, salle de réunion, bureaux, réfectoire, espace de stockage mais aussi si nécessaire le nettoyage des vitres et la gestion des poubelles hygiéniques.
@@ -39,7 +43,7 @@ function Service() {
             </div>
             <div className='col-lg-6 col-md-6'>
               <div className='service-item'>
-              <img src={service_3} alt='Service' />
+              <img className='card-img-top' src={service_3} alt='Service' />
                 <h3>Nettoyage de magasins​</h3>
                 <p>
                   Tout types de commerces, pharmacies, magasin de peinture, magasin de vêtements, opticien ou alimentation.
@@ -49,7 +53,7 @@ function Service() {
             </div>
             <div className='col-lg-6 col-md-6'>
               <div className='service-item'>
-              <img src={service_4} alt='Service' />
+              <img className='card-img-top' src={service_4} alt='Service' />
                 <h3>Nettoyage parking</h3>
                 <p>
                   Nettoyage de parking d'immeuble, de commerce ou de galerie, intérieur ou à l'extérieur au Karcher ou à
@@ -59,7 +63,7 @@ function Service() {
             </div>
             <div className='col-lg-6 col-md-6'>
               <div className='service-item'>
-              <img src={service_4} alt='Service' />
+              <img className='card-img-top' src={service_5} alt='Service' />
                 <h3>Nettoyages de vitres</h3>
                 <p>
                   Le nettoyages de vos vitres intérieurs et extérieurs + essuyage châssis important pour une belle finition !
@@ -69,7 +73,7 @@ function Service() {
             </div>
             <div className='col-lg-6 col-md-6'>
               <div className='service-item'>
-              <img src={service_4} alt='Service' />
+              <img className='card-img-top' src={service_6} alt='Service' />
                 <h3>Entretien cabinet médicaux</h3>
                 <p>
                   L'entretien de cabinet médical ou cabinet dentaire.
@@ -78,18 +82,18 @@ function Service() {
                 </p>
               </div>
             </div>
-            <div className='col-lg-6 col-md-6'>
+            <div className='col-lg-6 col-md-6 my-card'>
               <div className='service-item'>
-              <img src={service_4} alt='Service' />
+              <img className='card-img-top' src={service_7} alt='Service' />
                 <h3>Conseil organisation nettoyage</h3>
                 <p>
                   Vous avez des équipes de nettoyages mais n'y connaissez pas grand chose en gestion du temps, organisation et fréquence de nettoyages, le matériel le plus adéquat ou les produits à utiliser. Nous pouvons venir vous aidez.
                 </p>
               </div>
             </div>
-            <div className='col-lg-6 col-md-6'>
+            <div className='col-lg-6 col-md-6 h-200'>
               <div className='service-item'>
-              <img src={service_4} alt='Service' />
+              <img className='card-img-top' src={service_8} alt='Service' />
                 <h3>Divers nettoyages</h3>
                 <p>
                   Un nettoyage d'habitation après travaux ou un déménagement. 

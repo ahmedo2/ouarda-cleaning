@@ -9,13 +9,12 @@ function Footer() {
           <div className='col-md-6 col-lg-4'>
             <div className='footer-contact'>
               <h2>Entrer en contact</h2>
-              <p><i className='fa fa-map-marker-alt' />123 Street, New York, USA</p>
-              <p><i className='fa fa-phone-alt' />+012 345 67890</p>
-              <p><i className='fa fa-envelope' />contact@ouardanettoyage.com</p>
+              <p><i className='fa fa-map-marker-alt' />Kelaat M’gouna, Tinghir</p>
+              <p><i className='fa fa-phone-alt' />+31 6 6811 6900</p>
+              <p><i className='fa fa-envelope' />info@ouardanettoyage.com</p>
               <div className='footer-social'>
-                <a href="instagram.com"><i className="fab fa-facebook-f" /></a>
-                <a href="instagram.com"><i className="fab fa-instagram" /></a>
-                <a href="instagram.com"><i className="fab fa-linkedin-in" /></a>
+                <a href={"https://www.facebook.com/"} target='_blank' rel="noreferrer"><i className='fab fa-facebook-f' /></a>
+                <a href={"https://www.instagram.com/"} target='_blank' rel="noreferrer"><i className='fab fa-instagram' /></a>
               </div>
             </div>
           </div>
@@ -49,15 +48,6 @@ function Footer() {
           </div>
         </div>
       </div>
-      {/* <div className='container footer-menu'>
-        <div className='f-menu'>
-          <a href>Terms of use</a>
-          <a href>Privacy policy</a>
-          <a href>Cookies</a>
-          <a href>Help &amp; FQAs</a>
-          <a href>Contact us</a>
-        </div>
-      </div> */}
       <div className='container copyright'>
         <div className='row'>
           <div className='col-md-6'>

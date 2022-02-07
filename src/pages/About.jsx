@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import Headre from '../components/Headre';
 import { Link } from 'react-router-dom';
 import about_img from '../assets/img/about.jpg';
+import histoire from '../assets/img/histoire.jpg';
 
 function About() {
   return (
@@ -40,11 +41,13 @@ function About() {
           </div>
           <div className='col-lg-5 col-md-6'>
             <div className='about-img'>
-              <img src={about_img} alt='' />
+              <img src={histoire} alt='histoire' />
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div className='container'>
     </div>
       <Footer />
     </>

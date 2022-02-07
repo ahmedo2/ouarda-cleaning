@@ -1,11 +1,8 @@
 import React from 'react';
-import { Link, useLocation, NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from '../assets/img/logo.png';
 
 function Headre() {
-  const location = useLocation();
-  const { pathname } = location;
-  const splitLocation = pathname.split("/");
 
   return (
     <div className='header home'>
@@ -21,21 +18,20 @@ function Headre() {
             <div className='col-lg-9'>
               <div className='topbar'>
                 <div className='topbar-col'>
-                  <a href="tel:+012 345 67890"><i className='fa fa-phone-alt' />+012 345 67890</a>
+                  <a href="tel:+012 345 67890"><i className='fa fa-phone-alt' />+31 6 6811 6900</a>
                 </div>
                 <div className='topbar-col'>
-                  <a href="mailto:info@example.com"><i className='fa fa-envelope' />info@example.com</a>
+                  <a href="mailto:info@example.com"><i className='fa fa-envelope' />info@ouardanettoyage.com</a>
                 </div>
                 <div className='topbar-col'>
                   <div className='topbar-social'>
-                    <a href="instagram.com" target='_blank'><i className='fab fa-facebook-f' /></a>
-                    <a href="instagram.com"><i className='fab fa-instagram' /></a>
-                    <a href="instagram.com"><i className='fab fa-linkedin-in' /></a>
+                    <a href={"https://www.facebook.com/"} target='_blank' rel="noreferrer"><i className='fab fa-facebook-f' /></a>
+                    <a href={"https://www.instagram.com/"} target='_blank' rel="noreferrer"><i className='fab fa-instagram' /></a>
                   </div>
                 </div>
               </div>
               <div className='navbar navbar-expand-lg bg-light navbar-light'>
-                <button className='navbar-brand'>MENU</button>
+                <button className='navbar-brand btn'>MENU</button>
                 <button type='button' className='navbar-toggler' data-toggle='collapse' data-target='#navbarCollapse'>
                   <span className='navbar-toggler-icon' />
                 </button>
